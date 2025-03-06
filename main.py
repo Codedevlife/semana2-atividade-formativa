@@ -27,3 +27,8 @@ async def quartocommit():
 @app.get("/quintocommit")
 async def quintocommit():
     return {"message": "quartocommit"}
+
+# http://127.0.0.1:8000/sextocommit
+@app.get("/sextocommit")
+async def sextocommit():
+    return {"message": "sextocommit"}
