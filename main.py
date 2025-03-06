@@ -13,5 +13,7 @@ async def root():
 async def segundocommit():
     return {"message": "segundocommit"}
 
-
-
+# http://127.0.0.1:8000/terceirocommit
+@app.get("/terceirocommit")
+async def terceirocommit():
+    return {"message": "terceirocommit"}
